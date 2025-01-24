@@ -12,7 +12,6 @@ public class Separation : SteeringBehavior
     // the threshold to take action
     float threshold = 5f; // 5
 
-    // the constant coefficient of decay for the inverse square law
     float decayCoefficient = 10f;
 
     public override SteeringOutput getSteering()
